@@ -1,4 +1,5 @@
 #root {
+  width: 100%;
   max-width: 1280px;
   margin: 0 auto;
   padding: 0;
@@ -23,6 +24,7 @@
   border-radius: 50%;
   transition: all 0.3s ease;
   z-index: 1000;
+
 }
 
 .theme-toggle:hover {
@@ -33,4 +35,17 @@
 
 .theme-toggle:active {
   transform: scale(0.9);
+}
+
+@media (max-width: 600px) {
+  .theme-toggle {
+    top: 2.5rem;
+    right: 0.5rem;
+    padding: 0.3rem;
+  }
+
+  .theme-toggle svg {
+    width: 16px;
+    height:16px;
+  }
 }
