@@ -47,13 +47,13 @@
 
 @media (max-width: 600px) {
   .theme-toggle {
-    top: 1.5rem;
+    top: 2rem;
     right: 1.5rem;
-    padding: 0.6rem;
+    padding: 0.3rem;
   }
 
   .theme-toggle svg {
-    width: 20px;
-    height: 20px;
+    width: 18px;
+    height: 18px;
   }
 }
