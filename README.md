@@ -2,6 +2,9 @@
 
 A modern, responsive, and visually appealing multi-step registration wizard built with React and Vite. It features a premium glassmorphism design, light/dark theme support, and seamless animations.
 
+# Screenshot
+![alt text](image.png)
+
 ## Features
 
 - **Multi-Step Wizard**: Three distinct steps (Personal Info, Account Details, Review & Submit) for a smooth user onboarding experience.
